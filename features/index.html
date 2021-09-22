@@ -1,0 +1,409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Enovatic-Solutions (NiftyWindows)</title>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<meta http-equiv="content-language" content="en" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="86400" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="14 days" />
+	<meta name="copyright" content="Oliver Pfeiffer, Bremen (GERMANY)" />
+	<meta name="author" content="Oliver Pfeiffer, Bremen (GERMANY)" />
+	<meta name="description" content="Enovatic-Solutions is an IT Service Provider. We create custom solutions for professional users in all fields of Information Technology. If you have any demands or specific requirements, please feel free to let us know." />
+	<meta name="keywords" content="NiftyWindows Nifty Windows Java J2EE Software Softwareentwicklung IT Dienstleistungen Entwicklung Programmierung Development Engineering Integration Service Support Consulting Beratung Betreuung Schulung Schulungen EDV Dienstleistung Informations Technologie Technik Information Technology Anwendungssoftware Systemsoftware Anwendung System Provider Hardware Informationstechnik Informationstechnologie Internet Projekt Project Management Projektmanagement Sicherheit Safety Security Datenschutz Datensicherheit Database Datenbank Datenbanken Ergonomie Innovation Informatik Mobile Lösung Lösungen Solution Solutions Systemlösungen Qualität Qualitätssicherung Quality Assurance Interfaces Schnittstellen Barrierefreiheit Webdesign Design Netzwerk Network eBusiness eCommerce C Sharp Dot Net XML Cocoon CORBA Linux Windows Macintosh PocketPC Oliver Pfeiffer" />
+	<link rel="stylesheet" type="text/css" href="../styles.css" />
+</head>
+<body>
+	<div id="header">
+		<map id="headermap" name="headermap">
+			<area shape="rect" coords="149,104,231,129" href="../introduction/" alt="Introduction" />
+			<area shape="rect" coords="233,104,315,129" href="../" alt="Features" />
+			<area shape="rect" coords="317,104,399,129" href="../onlinedemo/" alt="Online Demo" />
+			<area shape="rect" coords="401,104,483,129" href="../changelog/" alt="Change Log" />
+			<area shape="rect" coords="485,104,567,129" href="../download/" alt="Download" />
+			<area shape="rect" coords="569,104,651,129" href="../credits/" alt="Credits" />
+			<area shape="rect" coords="653,104,735,129" href="../contact/" alt="Contact" />
+		</map>
+		<img src="../images/header.jpg" usemap="#headermap" alt="" />
+	</div>
+	<div id="tabdrop2">
+		<img src="../images/tabdrop.gif" width="100%" height="100%" alt="" />
+	</div>
+	<div id="container">
+		<div id="bordertop"><img src="../images/null.gif" width="756px" height="18px" alt="" /></div>
+		<div id="content">
+<!-- =============================================================================================================== -->
+<h2>FEATURES</h2>
+
+<p>The main idea of this tool was triggered by my nice colleague Mark. He is a confirmed Linux user since his very early 
+teens. So he'll always start to rail against the tricky window handling implemented in Redmond, WA if he is pained to 
+use some widespread software products.</p>
+
+<p>The main intention of NiftyWindows is the provision of an easy user control of all basic window interactions like 
+dragging, resizing, maximizing, minimizing, closing and many others. The idea is to perform the central interactions 
+with a single hand without any need to press some tricky key combinations like other tools or window managers enforce.
+<br />One of the mostly unused mouse features is the press and drag of the 
+<i><span class="trigger">RIGHT_BUTTON</span></i>. Therefore this mouse action is used for the main features as explained 
+below. The superior principle is to keep all features efficient but simple.</p>
+
+<p><span class="note">Note</span>: The basic window interactions mentioned above cannot be applied to all windows because 
+there are some special treatments (e.g. context menus or maximized windows). If you really like to enforce the power of 
+NiftyWindows to these windows also, you can press (and hold) <i><span class="modifier">CTRL</span></i> 
+<strong>before</strong> you start using a certain feature to manipulate these windows as well. With this forced mode 
+you can drag and resize the given (see below) "special windows" (makes sense) as well as adjust the bounds of context 
+menus and other (naturally) unchangeable GUI components (be careful).</p>
+
+<p>During the development process many innovative ideas came up (and were implemented certainly). So we had to choose 
+further keys to provide some simple trigger combinations to you. We decided to use the four most left-bottom keys 
+(<i><span class="trigger">WIN</span></i>, <i><span class="trigger">CTRL</span></i>, 
+<i><span class="trigger">SHIFT</span></i>, <i><span class="trigger">ALT</span></i>) on your keyboard as trigger 
+combination only, to keep it simple.</p>
+
+<p>The following list contains many features and modifiers. A modifier is used in combination with a feature 
+action to provide some additional control. If there are more than one modifier specified for a single feature, 
+certainly all of the given modifiers are freely combinable to provide the maximum flexibility in all situations.</p>
+
+<p>This tool provides the following features to significantly improve the user-interface-flow:</p>
+
+<ul class="triggerlist">
+	<li><i><span class="triggerdef">CTRL+ALT+BACKSPACE</span></i></li>
+	<li><i><span class="triggermultidef">CTRL+WIN+BACKSPACE</span></i>
+		<br />This powerful hotkey removes <strong>all</strong> visual effects (like on exit) that have been made before 
+		by NiftyWindows. You can use this action as a fall-back solution to quickly revert any always-on-top, 
+		rolled windows and transparency features you've set before.
+
+		<p><span class="note">Note</span>: This hotkey is particularly important during your test stage to revert some 
+		nifty visual effects after you completed a single feature test and before you're going to test the next. So 
+		keep it in mind!</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">RIGHT_BUTTON+DRAG</span></i>
+		<br />This is the most powerful feature of NiftyWindows. The area of every window is tiled in a virtual 9-cell 
+		grid with three columns and rows. The center cell is the largest one and you can grab and move a window around 
+		by clicking and holding it with the right mouse button. The other eight corner cells are used to resize a 
+		resizable window in the same manner.
+
+		<p><span class="note">Note</span>: This drag and resize feature is not provided on some certain windows because 
+		this mouse behaviour may have a special handling controlled by the application itself. You can use the forced 
+		mode (see explanation in the introduction of 'features') to manipulate these windows as well. Currently the 
+		following windows (and its possible child windows) have been taken into account:</p>
+
+		<p>Windows Explorer; Cabinet; Internet Explorer; Mozilla/Firefox; Opera; Xplore</p>
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+RIGHT_BUTTON+DRAG</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+
+			<li><i><span class="modifierdef">SHIFT+RIGHT_BUTTON+DRAG</span></i>
+				<br />This modifier lets the window bounds snap to a virtual 10 pixel grid to ease window alignment and 
+				to allow a complex window arrangement.
+			<p /></li>
+
+			<li><i><span class="modifierdef">WIN+RIGHT_BUTTON+DRAG</span></i>
+				<br />This modifier lets you resize all four edges of a window in a symmetrical manner around the 
+				window center.
+			<p /></li>
+
+			<li><i><span class="modifierdef">ALT+RIGHT_BUTTON+DRAG</span></i>
+				<br />This modifier locks the width and height ratio (aka aspect ratio) during the resize operation.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">RIGHT_BUTTON+LEFT_BUTTON</span></i>
+		<br />Minimizes the selected window (if minimizable) to the task bar. If you press the left button over the 
+		titlebar the selected window will be rolled up instead of being minimized. You have to apply this action again 
+		to roll the window back down.
+
+		<p><span class="note">Note</span>: If you exit NiftyWindows all rolled windows will be unrolled first.</p>
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+RIGHT_BUTTON+LEFT_BUTTON</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">CTRL+WIN+R</span></i>
+		<br />Unrolls all windows (like on exit) that have been rolled up before by NiftyWindows.
+	<p /></li>
+
+	<li><i><span class="triggerdef">RIGHT_BUTTON+MIDDLE_BUTTON</span></i>
+		<br />Closes the selected window (if closeable) as if you click the close button in the titlebar. If you press 
+		the middle button over the titlebar the selected window will be sent to the bottom of the window stack instead 
+		of being closed.
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+RIGHT_BUTTON+MIDDLE_BUTTON</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">RIGHT_BUTTON+WHEEL</span></i>
+		<br />Provides a quick task switcher (alt-tab-menu) controlled by the mouse wheel.
+
+		<p><span class="note">Note</span>: If you like task switching by using the alt-tab-menu you should give 
+		Microsoft's 'Alt-Tab Replacement' (part of the PowerToys) a try. With this PowerToy, in addition to seeing 
+		the icon of the application window you are switching to, you will also see a preview of the page. This helps 
+		particularly when multiple sessions of an application are open.</p>
+
+		<p><a href="http://www.microsoft.com/windowsxp/downloads/powertoys/xppowertoys.mspx" onclick="window.open(this.href);return false;">http://www.microsoft.com/windowsxp/downloads/powertoys/xppowertoys.mspx</a></p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">MIDDLE_BUTTON</span></i>
+		<br />Initiates a double click.
+	<p /></li>
+
+	<li><i><span class="triggerdef">FOURTH_BUTTON</span></i>
+		<br />This additional button is used to toggle the windows start menu.
+	<p /></li>
+
+	<li><i><span class="triggerdef">FIFTH_BUTTON</span></i>
+		<br />This additional button is used to toggle the maximize state of the active window (if maximizable).
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+FIFTH_BUTTON</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+0..9</span></i>
+		<br />Opens or closes an installed CD/DVD-ROM reader/writer drive tray. The drives are assigned to their hotkeys 
+		by the certain drive number in your system. The hotkeys are used in the sequence of the key placement on your 
+		physical keyboard from left to right (1 refers to the first and 0 to the tenth drive). So you are limited to a 
+		total number of 10 drives controlled by NiftyWindows.
+
+		<p><span class="example">Example</span>: If you press <i><span class="trigger">WIN+1</span></i> the first drive found 
+		(ordered by their drive letters) will be opened or closed (depends on the current state).</p>
+
+		<p><span class="note">Note</span>: During the open or close operation NiftyWindows is suspended (and waiting) so 
+		you can control only a single drive per time. If you want to open or close more than one drive you have to do 
+		it sequentially.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">PAUSE</span></i>
+		<br />Toggles the muteness of an installed audio card.
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+S</span></i>
+		<br />Starts the user defined screensaver (password protection aware).
+	<p /></li>
+
+	<li><i><span class="triggerdef">CTRL+WIN+S</span></i>
+		<br />This does the same as the feature described above with the addition that the display(s) will be powered 
+		down shortly (five seconds) after the screensaver started successfully. This feature is very useful if you 
+		already know that you are going to leave the system for a long period of time.
+
+		<p><span class="note">Note</span>: If you perform any user input that ends the saver in the first seconds 
+		certainly the display(s) will not be powered down. After the display(s) were powered down you can wake them up by 
+		any key or mouse inputs as well known.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+LEFT_BUTTON</span></i></li>
+	<li><i><span class="triggermultidef">WIN+^</span></i>
+		<br />Toggles the always-on-top attribute of the selected/active window.
+
+		<p><span class="note">Note</span>: If you exit NiftyWindows any always-on-top attributes will be removed first.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">CTRL+WIN+^</span></i>
+		<br />Removes any always-on-top attributes (like on exit) that have been set before by NiftyWindows.
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+WHEEL</span></i>
+		<br />Adjusts the transparency of the active window in ten percent steps (opaque = 100%) which allows the 
+		contents of the windows behind it to shine through. If the window is completely transparent (0%) the window is 
+		still there and clickable. If you loose a transparent window it will be extremly complicated to find it again 
+		because it's invisible (see the first hotkey in this list for emergency help in such situations).
+
+		<p><span class="note">Note</span>: This mode is called window-transparency. This feature is only supported on 
+		Windows 2000/XP or later and needs a powerful processor and video card installed in your system. If you exit 
+		NiftyWindows any transparency effects will be removed first.</p>
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">SHIFT+WIN+WHEEL</span></i>
+				<br />This modifier decreases the percent steps to one (instead of ten) for a more accurate control.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+CTRL+LEFT_BUTTON</span></i>
+		<br />Makes all pixels of the same color the mouse cursor points at invisible inside the target window, which 
+		allows the contents of the windows behind it to show through. If the user clicks on an invisible pixel, the 
+		click will "fall through" to the window behind it. You should always be concentrated by using this feature. 
+		Otherwise you can loose some windows completely (see the first hotkey in this list for emergency help in such 
+		situations).
+
+		<p><span class="note">Note</span>: This mode is called pixel-transparency. This feature is only supported on 
+		Windows 2000/XP or later and needs a powerful processor and video card installed in your system. If you exit 
+		NiftyWindows any transparency effects will be removed first.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+CTRL+MIDDLE_BUTTON</span></i>
+		<br />Provides a special combination of multiple features (window-transparency &amp; pixel-transparency &amp; 
+		always-on-top). This action is intended to be used on small dialogs (e.g. file-copy or download with progress 
+		bar). By using this feature you can modify an important dialog to stay inside your field of vision all the time 
+		without affecting your concentration. You have to revert these changes manually by using the well known 
+		features of NiftyWindows (see the first hotkey in this list for emergency help in such situations).
+
+		<p><span class="note">Note</span>: This mode combines 25% window-transparency and the pixel-transparency (pixel 
+		color at mouse click position). These features are only supported on Windows 2000/XP or later and needs a 
+		powerful processor and video card installed in your system. If you exit NiftyWindows any transparency effects 
+		will be removed first.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+MIDDLE_BUTTON</span></i>
+		<br />Removes any transparency effects (windows- as well as pixel-transparency) of the selected window.
+
+		<p><span class="note">Note</span>: If you use pixel transparency you have to click on any remaining visible part 
+		of the window otherwise the action is catched by the window behind it as described above.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">CTRL+WIN+T</span></i>
+		<br />Removes any transparency effects (like on exit) that have been set before by NiftyWindows.
+	<p /></li>
+
+	<li><i><span class="triggerdef">ALT+WHEEL</span></i>
+		<br />Changes the size of the active window in ten percent steps which allows a very quick resize operation with 
+		simply two snatches.
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+ALT+WHEEL</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+
+			<li><i><span class="modifierdef">SHIFT+ALT+WHEEL</span></i>
+				<br />This modifier decreases the percent steps to one (instead of ten) for a more accurate control.
+			<p /></li>
+
+			<li><i><span class="modifierdef">WIN+ALT+WHEEL</span></i>
+				<br />This modifier lets you resize all four edges of a window in a symmetrical manner around the 
+				window center.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">ALT+NumAdd</span></i></li>
+	<li><i><span class="triggermultidef">ALT+NumSub</span></i>
+		<br />Changes the size of the active window in steps of the standard screen resolutions. 
+		<i><span class="trigger">ALT+NumAdd</span></i> increases to the next higher, 
+		<i><span class="trigger">ALT+NumSub</span></i> decreases to the previous lower standard resolution. This feature 
+		is very useful for testing web pages: you can easily set your browser window to any common screen resolution.
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+ALT+NumAdd</span></i></li>
+			<li><i><span class="modifiermultidef">CTRL+ALT+NumSub</span></i>
+				<br />This modifier enables the forced mode for this action as described in the introduction of 
+				'features'.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+F1..F24</span></i>
+		<br />Activates the next window in a process window group that was defined gradually before with the given 
+		<i><span class="modifier">CTRL</span></i> modifier. This feature causes the first window of the responsible 
+		group to be activated. Using it a second time will activate the next window in the series and so on. By using 
+		process window groups you can organize and access your process windows in semantic groups quickly.
+
+		<p><span class="note">Note</span>: When a window is activated immediately after another window was activated, 
+		the task bar buttons may start flashing on some systems (depending on OS and settings).</p>
+
+		<p /><ul class="modifierlist">
+			<li><i><span class="modifierdef">CTRL+WIN+F1..F24</span></i>
+				<br />This modifier adds all windows of the active process to the responsible group.
+			<p /></li>
+
+			<li><i><span class="modifierdef">ALT+WIN+F1..F24</span></i>
+				<br />This modifier closes <strong>all</strong> windows of the responsible group.
+			<p /></li>
+		</ul><p />
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+ESC</span></i>
+		<br />By pressing this hotkey you can disable (and reenable) all NiftyWindows mouse and keyboard features at 
+		once. This is commonly used when you're going to start a special application that handles some triggers itself 
+		or when you want to temporarily disable NiftyWindows.
+
+		<p><span class="note">Note</span>: There is an auto suspend mode that can be enabled/disabled in the tray icon 
+		menu. This auto mode disables NiftyWindows temporarily as soon as a fullscreen window (propably a 3D game) was 
+		activated (gain focus). After the fullscreen window was deactivated (lost focus) NiftyWindows is enabled 
+		again.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">WIN+X</span></i>
+		<br />Exits NiftyWindows.
+
+		<p><span class="note">Note</span>: If the tray icon is hidden this hotkey will show it again (if it is already 
+		visible NiftyWindows will exit as expected).</p>
+	<p /></li>
+</ul>
+
+<hr />
+
+<p>The following features are less common because they depend on special applications and tools which 
+<strong>may</strong> be installed on your system:</p>
+
+<ul class="triggerlist">
+	<li><i><span class="triggerdef">CTRL+SHIFT+B</span></i>
+		<br />Toggles the visibility of the Miranda buddy list (if installed). Currently Miranda does not provide a 
+		hotkey to activate the buddy list if the window is still visible. Instead the opened (but not activated) buddy 
+		list will be minimized. This is not expected so this NiftyWindows feature provides the needed service asked 
+		by so many people:
+
+		<p /><ul>
+			<li>If Miranda's buddy list window is visible but not activated the window will be activated by pressing 
+			this hotkey.</li>
+			<li>If the buddy list is visible and activated the window will be minimized.</li>
+			<li>If the buddy list is minimized the window will be made visible and activated.</li>
+			<li>If Miranda is not started at all it will be started and the buddy list will be made visible and 
+			activated.</li>
+		</ul><p />
+
+		<p><span class="note">Note</span>: This feature is only applied if the Miranda executable can be found at: 
+		%ProgramFiles%\Miranda\Miranda32.exe</p>
+
+		<p><a href="http://www.miranda-im.org/" onclick="window.open(this.href);return false;">http://www.miranda-im.org/</a></p>
+
+		<p>As soon as this service will be provided by Miranda itself this hotkey will be removed from NiftyWindows.</p>
+	<p /></li>
+
+	<li><i><span class="triggerdef">CTRL+SHIFT+U</span></i>
+		<br />Toggles the visibility of the last used Miranda message container (if installed). Currently Miranda 
+		does not provide a hotkey to activate the last used message container if there is no unread message waiting for 
+		your attention. So this hotkey will make a container visible (if it is minimized) and activate it. If there is 
+		no existing message container, this hotkey will do nothing.
+
+		<p><span class="note">Note</span>: The message container identification is done by its window class only. So it 
+		may be that there are further windows having the same class that will be triggered by this hotkey also. There 
+		is currently no other way to do this. But you can inform us about some wrongly triggered window titles to 
+		exclude them from this hotkey in particular. Currently the following window titles have been taken into account:</p>
+
+		<p>Mail</p>
+
+		<p>This feature is only applied if the Miranda executable can be found at: %ProgramFiles%\Miranda\Miranda32.exe</p>
+
+		<p><a href="http://www.miranda-im.org/" onclick="window.open(this.href);return false;">http://www.miranda-im.org/</a></p>
+
+		<p>As soon as this service will be provided by Miranda itself this hotkey will be removed from NiftyWindows.</p>
+	<p /></li>
+</ul>
+<!-- =============================================================================================================== -->
+		</div>
+		<div id="borderbottom"><img src="../images/null.gif" width="756px" height="18px" alt="" /></div>
+	</div>
+	<div id="hint">
+		<!-- This website was optimized for: Internet Explorer 6.0, Firefox 1.0, Opera 8.0 -->
+		<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+	</div>
+</body>
+</html> 

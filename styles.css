@@ -1,0 +1,279 @@
+body {
+	background: url("images/gradient.jpg") repeat-x #D6E6F1;
+	line-height: 1.3em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+img {
+	border:none;
+}
+
+pre {
+	font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
+}
+
+h1 {
+	font-size: 140%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration:none;
+	color: #0000EE;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #551A8B;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration:underline
+}
+
+.column {
+	float: left;
+	width: 13.5em;
+}
+
+.clear {
+	clear: both;
+}
+
+#header {
+	position:absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -376px;
+}
+
+#container {
+	position:absolute;
+	top: 188px;
+	left: 50%;
+	margin-left: -378px;
+	padding-bottom: 40px;
+}
+
+#bordertop {
+	background: url("images/container-top.gif");
+	width: 756px;
+	height: 18px;
+}
+
+#borderbottom {
+	background: url("images/container-bottom.gif");
+	width: 756px;
+	height: 18px;
+}
+
+#content {
+	background: #FFFFFF;
+	border-left: 3px solid #0094FB;
+	border-right: 3px solid #0094FB;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	overflow: hidden;
+	width: 720px;
+}
+
+#hint {
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+	font-size: x-small;
+	color: white;
+	text-align: right;
+}
+
+#contact {
+	position: relative;
+	left: 70px;
+}
+
+#contact dt, .changelist dt {
+	float: left;
+}
+
+#contact dt {
+	position: relative;
+	color: gray;
+	text-align: right;
+	font-size: x-small;
+	width: 4.5em;
+}
+
+#contact dd {
+	margin-left: 4.5em;
+}
+
+.changelist dd {
+	margin-left: 3.5em;
+}
+
+#disclaimer {
+	line-height: 1.3em;
+}
+
+#download dt {
+	position: relative;
+	float: left;
+	width: 17em;
+}
+
+#download dd {
+	margin-left: 17em;
+}
+
+#download .md5sum {
+	font-size: x-small;
+	margin-bottom: 0.5em;
+}
+
+#tabdrop1 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: -227px;
+}
+
+#tabdrop2 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: -143px;
+}
+
+#tabdrop3 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: -59px;
+}
+
+#tabdrop4 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: 25px;
+}
+
+#tabdrop5 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: 109px;
+}
+
+#tabdrop6 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: 193px;
+}
+
+#tabdrop7 {
+	position:absolute;
+	top: 168px;
+	width: 82px;
+	height: 20px;
+	left: 50%;
+	margin-left: 277px;
+}
+
+.note, .example {
+	text-decoration: underline;
+}
+
+.trigger {
+	font-style: italic;
+}
+
+.triggerdef {
+	font-style: italic;
+	font-weight: bold;
+	color: navy;
+	margin-top: 16px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #BEBEDE;
+}
+
+.triggermultidef {
+	font-style: italic;
+	font-weight: bold;
+	color: navy;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #BEBEDE;
+}
+
+.triggerlist {
+}
+
+.modifier {
+	font-style: italic;
+}
+
+.modifierdef {
+	font-style: italic;
+	margin-top: 16px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #BEBEBE;
+}
+
+.modifiermultidef {
+	font-style: italic;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #BEBEBE;
+}
+
+.modifierlist {
+}
+
+.change {
+}
+
+.changedef {
+	font-weight: bold;
+	color: navy;
+	margin-top: 16px;
+	margin-bottom: 4px;
+}
+
+#commentlist .comment {
+	margin-top: 1em;
+}
+
+#commentlist .author {
+	font-size: small;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
